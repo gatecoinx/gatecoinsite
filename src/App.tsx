@@ -5,7 +5,7 @@ import { Countdown } from './components/Countdown';
 import { DoorOpen, Coins, Users, Rocket, Lock, TrendingUp, Shield, Star } from 'lucide-react';
 
 function App() {
-  const launchDate = new Date('2025-02-13T19:00:00Z');
+  const launchDate = new Date('2025-02-15T19:00:00Z');
   const parallaxRefs = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
