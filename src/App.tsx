@@ -76,7 +76,7 @@ function App() {
                 className="bg-yellow-400 text-purple-900 px-12 py-4 rounded-full text-xl font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg hover:shadow-yellow-400/50 group"
               >
                 <span className="flex items-center">
-                  Join Presale
+                   Presale
                   <Rocket className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" />
                 </span>
               </a>
@@ -238,8 +238,8 @@ function App() {
           </div>
         </section>
 
-        {/* Join Section */}
-        <section id="join" className="py-32 relative overflow-hidden bg-gradient-to-b from-purple-900/50 to-purple-950/50" ref={el => parallaxRefs.current[3] = el}>
+        {/*  Section */}
+        <section id="" className="py-32 relative overflow-hidden bg-gradient-to-b from-purple-900/50 to-purple-950/50" ref={el => parallaxRefs.current[3] = el}>
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-5xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-purple-400">
               Join the Revolution
