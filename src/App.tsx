@@ -31,13 +31,13 @@ function App() {
       <div className="fixed inset-0 z-0">
         <ParticleBackground />
       </div>
+      
+      <div className="relative z-10">
+        <Navigation />
 
 
 
 
-
-
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2 group">
@@ -53,7 +53,6 @@ function App() {
             </div>
           </div>
         </div>
-      </nav>
 
 
 
@@ -61,15 +60,12 @@ function App() {
 
 
 
-      
 
 
 
-      
 
-      
-      <div className="relative z-10">
-        <Navigation />
+
+
         
         {/* Hero Section - The Gateway */}
         <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
