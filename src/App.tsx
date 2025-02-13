@@ -34,38 +34,6 @@ function App() {
       
       <div className="relative z-10">
         <Navigation />
-
-
-
-
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center space-x-2 group">
-              <Brain className="w-8 h-8 text-purple-400 transform transition-transform group-hover:scale-110" />
-              <span className="font-bold text-xl">Follow Us</span>
-            </div>
-            <div className="flex items-center space-x-8">
-              <a href="https://x.com/GateCoinX" target="_blank" rel="noopener noreferrer" 
-                className="flex items-center space-x-1 px-4 py-2 rounded-full bg-purple-500/20 hover:bg-purple-500/30 transition-all group">
-                <Twitter className="w-5 h-5 text-purple-400 transform transition-transform group-hover:scale-110" />
-                <span>Follow us</span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
         
         {/* Hero Section - The Gateway */}
         <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
