@@ -234,7 +234,7 @@ function App() {
 
         
         {/*  Section */}
-        <section id="" className="py-32 relative overflow-hidden bg-gradient-to-b from-purple-900/50 to-purple-950/50" ref={el => parallaxRefs.current[3] = el}>
+        <section id="join" className="py-32 relative overflow-hidden bg-gradient-to-b from-purple-900/50 to-purple-950/50" ref={el => parallaxRefs.current[3] = el}>
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-5xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-purple-400">
               Join the Revolution
