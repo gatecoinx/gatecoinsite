@@ -7,7 +7,7 @@ const navItems = [
   { label: 'Solution', href: '#solution' },
   { label: 'Roadmap', href: '#roadmap' },
   { label: 'Join', href: '#join' },
-  { label: 'Follow Us', href: 'Follow Us' },
+  { label: 'Follow Us', href: '#follow' },
 ];
 
 export function Navigation() {
