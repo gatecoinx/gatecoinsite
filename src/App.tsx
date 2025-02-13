@@ -230,6 +230,42 @@ function App() {
           </div>
         </section>
 
+
+
+
+
+
+
+
+      <section id="follow" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-[url('https://x.com/GateCoinX')] bg-cover bg-center opacity-10"></div>
+          
+            <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+              <a 
+                href="https://www.pump.fun" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-yellow-400 text-purple-900 px-12 py-4 rounded-full text-xl font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg hover:shadow-yellow-400/50 group"
+              >
+              </a>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         {/*  Section */}
         <section id="" className="py-32 relative overflow-hidden bg-gradient-to-b from-purple-900/50 to-purple-950/50" ref={el => parallaxRefs.current[3] = el}>
           <div className="container mx-auto px-4 text-center">
