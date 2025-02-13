@@ -7,7 +7,6 @@ const navItems = [
   { label: 'Solution', href: '#solution' },
   { label: 'Roadmap', href: '#roadmap' },
   { label: 'Join', href: '#join' },
-  { label: 'Follow Us', href: '#follow' },
 ];
 
 export function Navigation() {
@@ -61,6 +60,35 @@ export function Navigation() {
                   {item.label}
                 </a>
               ))}
+
+
+
+
+
+                            {/* Eklenen "Follow Us" butonu */}
+              <a
+                href="https://x.com/GateCoinX"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-100 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                Follow Us
+              </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
             </div>
           </div>
           
@@ -88,6 +116,37 @@ export function Navigation() {
                 {item.label}
               </a>
             ))}
+
+
+
+
+
+                        {/* Eklenen "Follow Us" butonu: mobil menu */}
+            <a
+              href="https://x.com/GateCoinX"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-100 hover:text-yellow-400 block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Follow Us
+            </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
           </div>
         </div>
       )}
