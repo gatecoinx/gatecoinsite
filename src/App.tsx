@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-// import { Navigation } from './components/Navigation';
+import { Navigation } from './components/Navigation';
 import { ParticleBackground } from './components/ParticleBackground';
-import { Countdown } from './components/Countdown';
+// import { Countdown } from './components/Countdown';
 import { DoorOpen, Coins, Users, Rocket, Lock, TrendingUp, Shield, Star } from 'lucide-react';
 
 function App() {
