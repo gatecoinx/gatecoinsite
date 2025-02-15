@@ -56,13 +56,13 @@ function App() {
             {/* CA Loading Text - Added below countdown */}
             <div className="mb-12">
               <p className="text-2xl font-bold bg-gradient-to-r from-yellow-400 via-purple-400 to-yellow-400 bg-clip-text text-transparent animate-pulse">
-                CA: Loading
+                CA: E1X69twGZes2wKrEqfutW2xCaYeKwp9ayGAnmCQ3pump
               </p>
             </div>
 
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
               <a 
-                href="https://www.pump.fun" 
+                href="https://pump.fun/coin/E1X69twGZes2wKrEqfutW2xCaYeKwp9ayGAnmCQ3pump?coins_sort=created_timestamp" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-yellow-400 text-purple-900 px-12 py-4 rounded-full text-xl font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg hover:shadow-yellow-400/50 group"
@@ -244,7 +244,7 @@ function App() {
             </p>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
               <a 
-                href="https://www.pump.fun" 
+                href="https://pump.fun/coin/E1X69twGZes2wKrEqfutW2xCaYeKwp9ayGAnmCQ3pump?coins_sort=created_timestamp" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-yellow-400 text-purple-900 px-12 py-4 rounded-full text-xl font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg hover:shadow-yellow-400/50 group"
