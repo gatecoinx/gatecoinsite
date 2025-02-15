@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Navigation } from './components/Navigation';
+// import { Navigation } from './components/Navigation';
 import { ParticleBackground } from './components/ParticleBackground';
 import { Countdown } from './components/Countdown';
 import { DoorOpen, Coins, Users, Rocket, Lock, TrendingUp, Shield, Star } from 'lucide-react';
@@ -49,9 +49,10 @@ function App() {
             <p className="text-2xl md:text-3xl mb-12 text-purple-200 max-w-3xl mx-auto leading-relaxed">
               Open the Gateway to Financial Freedom
             </p>
-            <div className="max-w-2xl mx-auto mb-12">
-              <Countdown targetDate={launchDate} />
-            </div>
+            {/* Countdown bileşeni kaldırıldı */}
+            {/* <div className="max-w-2xl mx-auto mb-12">b-12">
+              <Countdown targetDate={launchDate} />ntdown targetDate={launchDate} />
+            </div> */}</div> */}
             
             {/* CA Loading Text - Added below countdown */}
             <div className="mb-12">
